@@ -1,4 +1,5 @@
 var $buIvO$flatpickr = require("flatpickr");
+require("flatpickr/dist/flatpickr.css");
 
 
 function $parcel$interopDefault(a) {
@@ -766,6 +767,8 @@ const $ff136e654f2d989a$var$EMAIL_REGEX = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a
         timeout = setTimeout(later, wait);
     };
 }
+
+
 
 
 
