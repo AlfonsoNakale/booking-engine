@@ -1,3 +1,4 @@
+// removed require
 import $hJpwG$flatpickr from "flatpickr";
 import "flatpickr/dist/flatpickr.css";
 
