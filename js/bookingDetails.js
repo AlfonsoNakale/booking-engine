@@ -1,11 +1,11 @@
-import flatpickr from "flatpickr";
-import {
+const flatpickr = require("flatpickr");
+const {
   updatePricing,
   calculateTotal,
   formatPrice,
   getState,
   handlePickupConfirmationChange,
-} from "./pricingCalculation.js";
+} = require("./pricingCalculation.js");
 
 /**
  * Creates a memoized version of a function to cache results
